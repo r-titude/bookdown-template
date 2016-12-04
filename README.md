@@ -8,5 +8,5 @@ This is a bookdown template especially built to get better LaTeX Books.
 
 If the book needs to be published in paperback format, simply remove `classoption: oneside` in YAML part of `index.Rmd`
 
-[Bookdown](https://bookdown.org) is a an open-source (GPL-3) R package to facilitate writing books and long-form articles/reports with R Markdown.
+[Bookdown](https://bookdown.org) is an open-source (GPL-3) R package to facilitate writing books and long-form articles/reports with R Markdown.
 
