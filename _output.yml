@@ -1,0 +1,12 @@
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+    before_body: before_body.tex
+  keep_tex: yes
+bookdown::epub_book: default
+bookdown::gitbook: 
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">My Book</a></li>

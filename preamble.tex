@@ -1,0 +1,48 @@
+\usepackage{booktabs}
+\usepackage{float}
+
+\hypersetup{breaklinks=true,
+            pdfauthor={Author},
+            pdftitle={My Document},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}
+            }
+            
+\usepackage{listings}
+\lstset{                         
+  basicstyle=\footnotesize\ttfamily,      
+  aboveskip=0.5cm,
+  belowskip=0.5cm,
+  xleftmargin=0.5cm,
+  xrightmargin=0.5cm,
+  numbers=left,                   
+  numberstyle=\tiny\color{Black}, 
+  stepnumber=1,                   
+  numbersep=5pt,                  
+  backgroundcolor=\color{White},  
+  showspaces=false,               
+  showstringspaces=false,         
+  showtabs=false,                 
+  frame=tb,                       
+  framexleftmargin=0.5cm,
+  framexrightmargin=0.5cm,
+  rulecolor=\color{Black},        
+  tabsize=2,                      
+  captionpos=t,                   
+  breaklines=true,                
+  breakatwhitespace=false,        
+  title=\lstname,                           
+  keywordstyle=\color{CadetBlue}, 
+  identifierstyle=\color{Black},
+  commentstyle=\itshape\color{Gray},
+  stringstyle=\color{Green},      
+  escapeinside={\%*}{*)},         
+  morekeywords={*,...}            
+} 
+
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother

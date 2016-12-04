@@ -1,0 +1,10 @@
+# Introduction
+
+Intro chapter
+
+A standard paragraph.
+
+
+```{r foo, fig.cap='Test caption'}
+plot(cars)  # a scatterplot
+```

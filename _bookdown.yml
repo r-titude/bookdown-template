@@ -1,0 +1,4 @@
+book_filename: my-book
+new_session: yes
+rmd_files: ["index.Rmd", "intro.Rmd"]
+chapter_name: "Chapter "

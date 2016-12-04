@@ -1,0 +1,44 @@
+--- 
+title: "My Book"
+author: "Dan Brice Datascience"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+classoption: oneside
+link-citations: yes
+lot: yes
+lof: yes
+subtitle: "Personal Book Template"
+description: "This is my personal book template"
+---
+
+# (PART) My First Part {-} 
+
+# Motivation
+
+This is motivation chapter
+
+$$Z=\frac{\bar{X}-\mu_0}{S/\sqrt{n}}$$
+```cpp
+void main (){
+  int x = 0;
+  x = 1;
+}
+```
+
+my url [github](http://www.github.com)
+
+^[My footnote]
+
+> My small block quote
+
+Table Test
+
+```{r}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
