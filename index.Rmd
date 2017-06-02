@@ -1,6 +1,6 @@
 --- 
 title: "My Book"
-author: "Dan Brice Datascience"
+author: "Rtitude"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
